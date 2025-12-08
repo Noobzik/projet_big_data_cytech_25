@@ -1,0 +1,15 @@
+[info] welcome to sbt 1.11.7 (Eclipse Adoptium Java 11.0.29)
+[info] loading project definition from /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/project
+[info] loading settings for project ex02_data_ingestion from build.sbt...
+[info] set current project to ex02_data_ingestion (in build file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[info] compiling 1 Scala source to /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/target/scala-2.13/classes ...
+[error] /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala:96:18: identifier expected but 'object' found.
+[error]                 .object(objectName)
+[error]                  ^
+[error] /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala:99:13: ';' expected but ')' found.
+[error]             )
+[error]             ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 10 s, completed Nov 28, 2025, 11:23:27 PM

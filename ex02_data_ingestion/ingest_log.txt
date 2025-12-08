@@ -1,0 +1,220 @@
+[info] welcome to sbt 1.11.7 (Eclipse Adoptium Java 11.0.29)
+[info] loading project definition from /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/project
+[info] loading settings for project ex02_data_ingestion from build.sbt...
+[info] set current project to ex02_data_ingestion (in build file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/)
+[info] running (fork) IngestReferenceData 
+[error] Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[error] 25/11/30 15:51:45 WARN Utils: Your hostname, MacBook-Pro-von-Abdoulaye.local resolves to a loopback address: 127.0.0.1; using 10.188.186.236 instead (on interface en0)
+[error] 25/11/30 15:51:45 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[error] 25/11/30 15:51:45 INFO SparkContext: Running Spark version 3.5.0
+[error] 25/11/30 15:51:45 INFO SparkContext: OS info Mac OS X, 26.2, x86_64
+[error] 25/11/30 15:51:45 INFO SparkContext: Java version 11.0.29
+[error] 25/11/30 15:51:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[error] 25/11/30 15:51:45 INFO ResourceUtils: ==============================================================
+[error] 25/11/30 15:51:45 INFO ResourceUtils: No custom resources configured for spark.driver.
+[error] 25/11/30 15:51:45 INFO ResourceUtils: ==============================================================
+[error] 25/11/30 15:51:45 INFO SparkContext: Submitted application: IngestReferenceData
+[error] 25/11/30 15:51:45 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[error] 25/11/30 15:51:45 INFO ResourceProfile: Limiting resource is cpu
+[error] 25/11/30 15:51:45 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[error] 25/11/30 15:51:45 INFO SecurityManager: Changing view acls to: zigzeug
+[error] 25/11/30 15:51:45 INFO SecurityManager: Changing modify acls to: zigzeug
+[error] 25/11/30 15:51:45 INFO SecurityManager: Changing view acls groups to: 
+[error] 25/11/30 15:51:45 INFO SecurityManager: Changing modify acls groups to: 
+[error] 25/11/30 15:51:45 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: zigzeug; groups with view permissions: EMPTY; users with modify permissions: zigzeug; groups with modify permissions: EMPTY
+[error] 25/11/30 15:51:46 INFO Utils: Successfully started service 'sparkDriver' on port 52039.
+[error] 25/11/30 15:51:46 INFO SparkEnv: Registering MapOutputTracker
+[error] WARNING: An illegal reflective access operation has occurred
+[error] WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/target/bg-jobs/sbt_67bb6eef/target/75205caf/8fdd765c/spark-unsafe_2.13-3.5.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+[error] WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+[error] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[error] WARNING: All illegal access operations will be denied in a future release
+[error] 25/11/30 15:51:46 INFO SparkEnv: Registering BlockManagerMaster
+[error] 25/11/30 15:51:46 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[error] 25/11/30 15:51:46 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[error] 25/11/30 15:51:46 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[error] 25/11/30 15:51:46 INFO DiskBlockManager: Created local directory at /private/var/folders/h1/pkmwsfd12hz6_rnssw0zx33w0000gn/T/blockmgr-ccce4915-7066-4b95-b186-8b74351aec7c
+[error] 25/11/30 15:51:46 INFO MemoryStore: MemoryStore started with capacity 2.2 GiB
+[error] 25/11/30 15:51:46 INFO SparkEnv: Registering OutputCommitCoordinator
+[error] 25/11/30 15:51:47 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[error] 25/11/30 15:51:47 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[error] 25/11/30 15:51:47 INFO Executor: Starting executor ID driver on host 10.188.186.236
+[error] 25/11/30 15:51:47 INFO Executor: OS info Mac OS X, 26.2, x86_64
+[error] 25/11/30 15:51:47 INFO Executor: Java version 11.0.29
+[error] 25/11/30 15:51:47 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[error] 25/11/30 15:51:47 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@4a901445 for default.
+[error] 25/11/30 15:51:47 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52040.
+[error] 25/11/30 15:51:47 INFO NettyBlockTransferService: Server created on 10.188.186.236:52040
+[error] 25/11/30 15:51:47 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[error] 25/11/30 15:51:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.188.186.236, 52040, None)
+[error] 25/11/30 15:51:47 INFO BlockManagerMasterEndpoint: Registering block manager 10.188.186.236:52040 with 2.2 GiB RAM, BlockManagerId(driver, 10.188.186.236, 52040, None)
+[error] 25/11/30 15:51:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.188.186.236, 52040, None)
+[error] 25/11/30 15:51:47 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.188.186.236, 52040, None)
+[info] Reading reference data from ../data/raw/taxi_zone_lookup.csv
+[error] 25/11/30 15:51:48 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[error] 25/11/30 15:51:48 INFO SharedState: Warehouse path is 'file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/spark-warehouse'.
+[error] 25/11/30 15:51:49 INFO InMemoryFileIndex: It took 66 ms to list leaf files for 1 paths.
+[error] 25/11/30 15:51:49 INFO InMemoryFileIndex: It took 3 ms to list leaf files for 1 paths.
+[error] 25/11/30 15:51:53 INFO FileSourceStrategy: Pushed Filters: 
+[error] 25/11/30 15:51:53 INFO FileSourceStrategy: Post-Scan Filters: (length(trim(value#0, None)) > 0)
+[error] 25/11/30 15:51:54 INFO CodeGenerator: Code generated in 313.632494 ms
+[error] 25/11/30 15:51:54 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 198.7 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:54 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:54 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.188.186.236:52040 (size: 34.3 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:54 INFO SparkContext: Created broadcast 0 from csv at IngestReferenceData.scala:23
+[error] 25/11/30 15:51:54 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:51:54 INFO SparkContext: Starting job: csv at IngestReferenceData.scala:23
+[error] 25/11/30 15:51:54 INFO DAGScheduler: Got job 0 (csv at IngestReferenceData.scala:23) with 1 output partitions
+[error] 25/11/30 15:51:54 INFO DAGScheduler: Final stage: ResultStage 0 (csv at IngestReferenceData.scala:23)
+[error] 25/11/30 15:51:54 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:51:54 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:51:54 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at csv at IngestReferenceData.scala:23), which has no missing parents
+[error] 25/11/30 15:51:54 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 13.8 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:54 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.5 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:54 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.188.186.236:52040 (size: 6.5 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:54 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:51:54 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at csv at IngestReferenceData.scala:23) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:51:54 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:51:54 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:51:54 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 17.636105 ms
+[error] 25/11/30 15:51:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/taxi_zone_lookup.csv, range: 0-12331, partition values: [empty row]
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 12.726357 ms
+[error] 25/11/30 15:51:55 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1748 bytes result sent to driver
+[error] 25/11/30 15:51:55 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 339 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:51:55 INFO DAGScheduler: ResultStage 0 (csv at IngestReferenceData.scala:23) finished in 0.506 s
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Job 0 finished: csv at IngestReferenceData.scala:23, took 0.560576 s
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 9.091235 ms
+[error] 25/11/30 15:51:55 INFO FileSourceStrategy: Pushed Filters: 
+[error] 25/11/30 15:51:55 INFO FileSourceStrategy: Post-Scan Filters: 
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 198.7 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.188.186.236:52040 (size: 34.3 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO SparkContext: Created broadcast 2 from csv at IngestReferenceData.scala:23
+[error] 25/11/30 15:51:55 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:51:55 INFO SparkContext: Starting job: csv at IngestReferenceData.scala:23
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Got job 1 (csv at IngestReferenceData.scala:23) with 1 output partitions
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Final stage: ResultStage 1 (csv at IngestReferenceData.scala:23)
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[9] at csv at IngestReferenceData.scala:23), which has no missing parents
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 20.8 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 9.4 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.188.186.236:52040 (size: 9.4 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[9] at csv at IngestReferenceData.scala:23) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:51:55 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:51:55 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 8.702741 ms
+[error] 25/11/30 15:51:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/taxi_zone_lookup.csv, range: 0-12331, partition values: [empty row]
+[error] 25/11/30 15:51:55 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1808 bytes result sent to driver
+[error] 25/11/30 15:51:55 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 108 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:51:55 INFO DAGScheduler: ResultStage 1 (csv at IngestReferenceData.scala:23) finished in 0.141 s
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Job 1 finished: csv at IngestReferenceData.scala:23, took 0.145654 s
+[info] Schema:
+[info] root
+[info]  |-- LocationID: integer (nullable = true)
+[info]  |-- Borough: string (nullable = true)
+[info]  |-- Zone: string (nullable = true)
+[info]  |-- service_zone: string (nullable = true)
+[error] 25/11/30 15:51:55 INFO FileSourceStrategy: Pushed Filters: 
+[error] 25/11/30 15:51:55 INFO FileSourceStrategy: Post-Scan Filters: 
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 16.125442 ms
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 198.6 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.188.186.236:52040 (size: 34.2 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO SparkContext: Created broadcast 4 from show at IngestReferenceData.scala:27
+[error] 25/11/30 15:51:55 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:51:55 INFO SparkContext: Starting job: show at IngestReferenceData.scala:27
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Got job 2 (show at IngestReferenceData.scala:27) with 1 output partitions
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Final stage: ResultStage 2 (show at IngestReferenceData.scala:27)
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[13] at show at IngestReferenceData.scala:27), which has no missing parents
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 16.9 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 7.8 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 10.188.186.236:52040 (size: 7.8 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:55 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[13] at show at IngestReferenceData.scala:27) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:51:55 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:51:55 INFO Executor: Running task 0.0 in stage 2.0 (TID 2)
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 15.487368 ms
+[error] 25/11/30 15:51:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/taxi_zone_lookup.csv, range: 0-12331, partition values: [empty row]
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 13.235042 ms
+[error] 25/11/30 15:51:55 INFO Executor: Finished task 0.0 in stage 2.0 (TID 2). 1993 bytes result sent to driver
+[error] 25/11/30 15:51:55 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 89 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:51:55 INFO DAGScheduler: ResultStage 2 (show at IngestReferenceData.scala:27) finished in 0.104 s
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:51:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 2: Stage finished
+[error] 25/11/30 15:51:55 INFO DAGScheduler: Job 2 finished: show at IngestReferenceData.scala:27, took 0.107895 s
+[error] 25/11/30 15:51:55 INFO CodeGenerator: Code generated in 16.761652 ms
+[info] +----------+-------------+--------------------+------------+
+[info] |LocationID|      Borough|                Zone|service_zone|
+[info] +----------+-------------+--------------------+------------+
+[info] |         1|          EWR|      Newark Airport|         EWR|
+[info] |         2|       Queens|         Jamaica Bay|   Boro Zone|
+[info] |         3|        Bronx|Allerton/Pelham G...|   Boro Zone|
+[info] |         4|    Manhattan|       Alphabet City| Yellow Zone|
+[info] |         5|Staten Island|       Arden Heights|   Boro Zone|
+[info] +----------+-------------+--------------------+------------+
+[info] only showing top 5 rows
+[info] Writing to Postgres table 'dim_location' at jdbc:postgresql://localhost:5433/warehouse
+[error] 25/11/30 15:51:56 INFO FileSourceStrategy: Pushed Filters: 
+[error] 25/11/30 15:51:56 INFO FileSourceStrategy: Post-Scan Filters: 
+[error] 25/11/30 15:51:56 INFO CodeGenerator: Code generated in 13.351244 ms
+[error] 25/11/30 15:51:56 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 198.6 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 10.188.186.236:52040 (size: 34.2 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO SparkContext: Created broadcast 6 from jdbc at IngestReferenceData.scala:52
+[error] 25/11/30 15:51:56 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:51:56 INFO SparkContext: Starting job: jdbc at IngestReferenceData.scala:52
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Got job 3 (jdbc at IngestReferenceData.scala:52) with 1 output partitions
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Final stage: ResultStage 3 (jdbc at IngestReferenceData.scala:52)
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[19] at jdbc at IngestReferenceData.scala:52), which has no missing parents
+[error] 25/11/30 15:51:56 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 26.9 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 12.1 KiB, free 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 10.188.186.236:52040 (size: 12.1 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[19] at jdbc at IngestReferenceData.scala:52) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:51:56 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:51:56 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 3) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:51:56 INFO Executor: Running task 0.0 in stage 3.0 (TID 3)
+[error] 25/11/30 15:51:56 INFO CodeGenerator: Code generated in 10.166141 ms
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Removed broadcast_5_piece0 on 10.188.186.236:52040 in memory (size: 7.8 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 10.188.186.236:52040 in memory (size: 34.2 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO CodeGenerator: Code generated in 12.229012 ms
+[error] 25/11/30 15:51:56 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/taxi_zone_lookup.csv, range: 0-12331, partition values: [empty row]
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 10.188.186.236:52040 in memory (size: 34.3 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.188.186.236:52040 in memory (size: 9.4 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.188.186.236:52040 in memory (size: 34.3 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.188.186.236:52040 in memory (size: 6.5 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:51:56 INFO Executor: Finished task 0.0 in stage 3.0 (TID 3). 1681 bytes result sent to driver
+[error] 25/11/30 15:51:56 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 3) in 177 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:51:56 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:51:56 INFO DAGScheduler: ResultStage 3 (jdbc at IngestReferenceData.scala:52) finished in 0.201 s
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Job 3 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:51:56 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+[error] 25/11/30 15:51:56 INFO DAGScheduler: Job 3 finished: jdbc at IngestReferenceData.scala:52, took 0.204831 s
+[info] Reference data ingestion completed successfully.
+[error] 25/11/30 15:51:56 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[error] 25/11/30 15:51:56 INFO SparkUI: Stopped Spark web UI at http://10.188.186.236:4040
+[error] 25/11/30 15:51:56 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[error] 25/11/30 15:51:56 INFO MemoryStore: MemoryStore cleared
+[error] 25/11/30 15:51:56 INFO BlockManager: BlockManager stopped
+[error] 25/11/30 15:51:56 INFO BlockManagerMaster: BlockManagerMaster stopped
+[error] 25/11/30 15:51:56 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[error] 25/11/30 15:51:56 INFO SparkContext: Successfully stopped SparkContext
+[error] 25/11/30 15:51:56 INFO ShutdownHookManager: Shutdown hook called
+[error] 25/11/30 15:51:56 INFO ShutdownHookManager: Deleting directory /private/var/folders/h1/pkmwsfd12hz6_rnssw0zx33w0000gn/T/spark-4a000913-0ae8-42ec-8699-03f077afac8e
+[success] Total time: 17 s, completed Nov 30, 2025, 3:51:57 PM

@@ -1,3 +1,13 @@
-L'objectif de cette partie additionnel est de pouvoir proposer un système entièrement automatisé avec Airflow.
-1. Pour cela, nous devez ajouter un nouveau service dans le docker-compose nommé Airflow
-2. Ensuite vous devez concevoir votre DAG afin d'automatiser sous la forme de pipelines l'ensemble des exercices demandés
+# Exercice 6 : Automatisation Airflow
+
+J'ai mis en place un pipeline Airflow complet (`project_pipeline`) pour orchestrer l'ensemble du projet.
+
+## Le Pipeline
+1. **Création DB** : Initialisation des tables Postgres (via `creation.sql`).
+2. **Setup** : Insertion des données de référence (via `insertion.sql`).
+3. **Ingestion** : Lancement du job Spark `DataValidation` (via DockerOperator).
+4. **ML** : Déclenchement de l'entrainement du modèle via l'API.
+
+## Accès
+- **UI** : [http://localhost:8080](http://localhost:8080)
+- **Login** : `admin` / `admin`
