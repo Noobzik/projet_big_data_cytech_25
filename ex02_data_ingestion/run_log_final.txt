@@ -1,0 +1,1162 @@
+[info] welcome to sbt 1.11.7 (Eclipse Adoptium Java 11.0.29)
+[info] loading project definition from /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/project
+[info] loading settings for project ex02_data_ingestion from build.sbt...
+[info] set current project to ex02_data_ingestion (in build file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/)
+[info] running (fork) DataValidation 
+[error] Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[error] 25/11/30 15:52:44 WARN Utils: Your hostname, MacBook-Pro-von-Abdoulaye.local resolves to a loopback address: 127.0.0.1; using 10.188.186.236 instead (on interface en0)
+[error] 25/11/30 15:52:44 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[error] 25/11/30 15:52:45 INFO SparkContext: Running Spark version 3.5.0
+[error] 25/11/30 15:52:45 INFO SparkContext: OS info Mac OS X, 26.2, x86_64
+[error] 25/11/30 15:52:45 INFO SparkContext: Java version 11.0.29
+[error] 25/11/30 15:52:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[error] 25/11/30 15:52:45 INFO ResourceUtils: ==============================================================
+[error] 25/11/30 15:52:45 INFO ResourceUtils: No custom resources configured for spark.driver.
+[error] 25/11/30 15:52:45 INFO ResourceUtils: ==============================================================
+[error] 25/11/30 15:52:45 INFO SparkContext: Submitted application: DataIngestion
+[error] 25/11/30 15:52:45 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[error] 25/11/30 15:52:45 INFO ResourceProfile: Limiting resource is cpu
+[error] 25/11/30 15:52:45 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[error] 25/11/30 15:52:45 INFO SecurityManager: Changing view acls to: zigzeug
+[error] 25/11/30 15:52:45 INFO SecurityManager: Changing modify acls to: zigzeug
+[error] 25/11/30 15:52:45 INFO SecurityManager: Changing view acls groups to: 
+[error] 25/11/30 15:52:45 INFO SecurityManager: Changing modify acls groups to: 
+[error] 25/11/30 15:52:45 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: zigzeug; groups with view permissions: EMPTY; users with modify permissions: zigzeug; groups with modify permissions: EMPTY
+[error] 25/11/30 15:52:45 INFO Utils: Successfully started service 'sparkDriver' on port 52054.
+[error] 25/11/30 15:52:45 INFO SparkEnv: Registering MapOutputTracker
+[error] WARNING: An illegal reflective access operation has occurred
+[error] WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/target/bg-jobs/sbt_85f03194/target/75205caf/8fdd765c/spark-unsafe_2.13-3.5.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+[error] WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+[error] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[error] WARNING: All illegal access operations will be denied in a future release
+[error] 25/11/30 15:52:45 INFO SparkEnv: Registering BlockManagerMaster
+[error] 25/11/30 15:52:45 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[error] 25/11/30 15:52:45 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[error] 25/11/30 15:52:45 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[error] 25/11/30 15:52:45 INFO DiskBlockManager: Created local directory at /private/var/folders/h1/pkmwsfd12hz6_rnssw0zx33w0000gn/T/blockmgr-1fc6adaa-7653-493e-b71e-12632428096f
+[error] 25/11/30 15:52:45 INFO MemoryStore: MemoryStore started with capacity 2.2 GiB
+[error] 25/11/30 15:52:45 INFO SparkEnv: Registering OutputCommitCoordinator
+[error] 25/11/30 15:52:46 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[error] 25/11/30 15:52:46 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[error] 25/11/30 15:52:46 INFO Executor: Starting executor ID driver on host 10.188.186.236
+[error] 25/11/30 15:52:46 INFO Executor: OS info Mac OS X, 26.2, x86_64
+[error] 25/11/30 15:52:46 INFO Executor: Java version 11.0.29
+[error] 25/11/30 15:52:46 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[error] 25/11/30 15:52:46 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@67f77f6e for default.
+[error] 25/11/30 15:52:46 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52060.
+[error] 25/11/30 15:52:46 INFO NettyBlockTransferService: Server created on 10.188.186.236:52060
+[error] 25/11/30 15:52:46 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[error] 25/11/30 15:52:46 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.188.186.236, 52060, None)
+[error] 25/11/30 15:52:46 INFO BlockManagerMasterEndpoint: Registering block manager 10.188.186.236:52060 with 2.2 GiB RAM, BlockManagerId(driver, 10.188.186.236, 52060, None)
+[error] 25/11/30 15:52:46 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.188.186.236, 52060, None)
+[error] 25/11/30 15:52:46 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.188.186.236, 52060, None)
+[info] Reading data from ../data/raw/yellow_tripdata_2025-01.parquet
+[error] 25/11/30 15:52:47 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[error] 25/11/30 15:52:47 INFO SharedState: Warehouse path is 'file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/spark-warehouse'.
+[error] 25/11/30 15:52:48 INFO InMemoryFileIndex: It took 65 ms to list leaf files for 1 paths.
+[error] 25/11/30 15:52:49 INFO SparkContext: Starting job: parquet at DataValidation.scala:29
+[error] 25/11/30 15:52:49 INFO DAGScheduler: Got job 0 (parquet at DataValidation.scala:29) with 1 output partitions
+[error] 25/11/30 15:52:49 INFO DAGScheduler: Final stage: ResultStage 0 (parquet at DataValidation.scala:29)
+[error] 25/11/30 15:52:49 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:52:49 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:49 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at parquet at DataValidation.scala:29), which has no missing parents
+[error] 25/11/30 15:52:49 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 102.8 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:49 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 36.9 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:49 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.188.186.236:52060 (size: 36.9 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:49 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:49 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at parquet at DataValidation.scala:29) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:52:49 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:52:49 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 7957 bytes) 
+[error] 25/11/30 15:52:49 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[error] 25/11/30 15:52:50 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2724 bytes result sent to driver
+[error] 25/11/30 15:52:50 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 638 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:52:50 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:52:50 INFO DAGScheduler: ResultStage 0 (parquet at DataValidation.scala:29) finished in 1.203 s
+[error] 25/11/30 15:52:50 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:52:50 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[error] 25/11/30 15:52:50 INFO DAGScheduler: Job 0 finished: parquet at DataValidation.scala:29, took 1.280275 s
+[error] 25/11/30 15:52:50 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 10.188.186.236:52060 in memory (size: 36.9 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:52 INFO FileSourceStrategy: Pushed Filters: 
+[error] 25/11/30 15:52:52 INFO FileSourceStrategy: Post-Scan Filters: 
+[error] 25/11/30 15:52:52 INFO CodeGenerator: Code generated in 250.439898 ms
+[error] 25/11/30 15:52:52 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 200.0 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:52 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 34.6 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:52 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.188.186.236:52060 (size: 34.6 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:52 INFO SparkContext: Created broadcast 1 from count at DataValidation.scala:31
+[error] 25/11/30 15:52:52 INFO FileSourceScanExec: Planning scan with bin packing, max size: 7919067 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:52:52 INFO DAGScheduler: Registering RDD 5 (count at DataValidation.scala:31) as input to shuffle 0
+[error] 25/11/30 15:52:52 INFO DAGScheduler: Got map stage job 1 (count at DataValidation.scala:31) with 8 output partitions
+[error] 25/11/30 15:52:52 INFO DAGScheduler: Final stage: ShuffleMapStage 1 (count at DataValidation.scala:31)
+[error] 25/11/30 15:52:52 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:52:52 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:52 INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[5] at count at DataValidation.scala:31), which has no missing parents
+[error] 25/11/30 15:52:52 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 17.5 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:52 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.9 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:52 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.188.186.236:52060 (size: 7.9 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:52 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Submitting 8 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[5] at count at DataValidation.scala:31) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+[error] 25/11/30 15:52:53 INFO TaskSchedulerImpl: Adding task set 1.0 with 8 tasks resource profile 0
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 2) (10.188.186.236, executor driver, partition 1, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 2.0 in stage 1.0 (TID 3) (10.188.186.236, executor driver, partition 2, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 3.0 in stage 1.0 (TID 4) (10.188.186.236, executor driver, partition 3, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 4.0 in stage 1.0 (TID 5) (10.188.186.236, executor driver, partition 4, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 5.0 in stage 1.0 (TID 6) (10.188.186.236, executor driver, partition 5, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 6.0 in stage 1.0 (TID 7) (10.188.186.236, executor driver, partition 6, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 7.0 in stage 1.0 (TID 8) (10.188.186.236, executor driver, partition 7, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 1.0 in stage 1.0 (TID 2)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 2.0 in stage 1.0 (TID 3)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 4.0 in stage 1.0 (TID 5)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 3.0 in stage 1.0 (TID 4)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 5.0 in stage 1.0 (TID 6)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 6.0 in stage 1.0 (TID 7)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 7.0 in stage 1.0 (TID 8)
+[error] 25/11/30 15:52:53 INFO CodeGenerator: Code generated in 20.451355 ms
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 31676268-39595335, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 15838134-23757201, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 7919067-15838134, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 0-7919067, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 55433469-59158238, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 39595335-47514402, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 47514402-55433469, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 23757201-31676268, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 2.0 in stage 1.0 (TID 3). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 7.0 in stage 1.0 (TID 8). 2270 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 6.0 in stage 1.0 (TID 7). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 4.0 in stage 1.0 (TID 5). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 2.0 in stage 1.0 (TID 3) in 277 ms on 10.188.186.236 (executor driver) (1/8)
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 6.0 in stage 1.0 (TID 7) in 274 ms on 10.188.186.236 (executor driver) (2/8)
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 7.0 in stage 1.0 (TID 8) in 274 ms on 10.188.186.236 (executor driver) (3/8)
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 286 ms on 10.188.186.236 (executor driver) (4/8)
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 4.0 in stage 1.0 (TID 5) in 278 ms on 10.188.186.236 (executor driver) (5/8)
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 1.0 in stage 1.0 (TID 2). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 3.0 in stage 1.0 (TID 4). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 2) in 316 ms on 10.188.186.236 (executor driver) (6/8)
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 3.0 in stage 1.0 (TID 4) in 316 ms on 10.188.186.236 (executor driver) (7/8)
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 5.0 in stage 1.0 (TID 6). 2270 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 5.0 in stage 1.0 (TID 6) in 315 ms on 10.188.186.236 (executor driver) (8/8)
+[error] 25/11/30 15:52:53 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:52:53 INFO DAGScheduler: ShuffleMapStage 1 (count at DataValidation.scala:31) finished in 0.363 s
+[error] 25/11/30 15:52:53 INFO DAGScheduler: looking for newly runnable stages
+[error] 25/11/30 15:52:53 INFO DAGScheduler: running: HashSet()
+[error] 25/11/30 15:52:53 INFO DAGScheduler: waiting: HashSet()
+[error] 25/11/30 15:52:53 INFO DAGScheduler: failed: HashSet()
+[error] 25/11/30 15:52:53 INFO CodeGenerator: Code generated in 13.926761 ms
+[error] 25/11/30 15:52:53 INFO SparkContext: Starting job: count at DataValidation.scala:31
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Got job 2 (count at DataValidation.scala:31) with 1 output partitions
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Final stage: ResultStage 3 (count at DataValidation.scala:31)
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 2)
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[8] at count at DataValidation.scala:31), which has no missing parents
+[error] 25/11/30 15:52:53 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 13.1 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 6.1 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.188.186.236:52060 (size: 6.1 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[8] at count at DataValidation.scala:31) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:52:53 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 9) (10.188.186.236, executor driver, partition 0, NODE_LOCAL, 7695 bytes) 
+[error] 25/11/30 15:52:53 INFO Executor: Running task 0.0 in stage 3.0 (TID 9)
+[error] 25/11/30 15:52:53 INFO ShuffleBlockFetcherIterator: Getting 8 (480.0 B) non-empty blocks including 8 (480.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[error] 25/11/30 15:52:53 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 15 ms
+[error] 25/11/30 15:52:53 INFO CodeGenerator: Code generated in 10.92926 ms
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 0.0 in stage 3.0 (TID 9). 4127 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 9) in 85 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:52:53 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:52:53 INFO DAGScheduler: ResultStage 3 (count at DataValidation.scala:31) finished in 0.103 s
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:52:53 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Job 2 finished: count at DataValidation.scala:31, took 0.111551 s
+[info] Total records: 3475226
+[error] 25/11/30 15:52:53 INFO FileSourceStrategy: Pushed Filters: IsNotNull(passenger_count),IsNotNull(trip_distance),IsNotNull(total_amount),IsNotNull(tpep_pickup_datetime),IsNotNull(tpep_dropoff_datetime),GreaterThan(passenger_count,0),GreaterThanOrEqual(trip_distance,0.0),GreaterThanOrEqual(total_amount,0.0)
+[error] 25/11/30 15:52:53 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(passenger_count#3L),isnotnull(trip_distance#4),isnotnull(total_amount#16),isnotnull(tpep_pickup_datetime#1),isnotnull(tpep_dropoff_datetime#2),(passenger_count#3L > 0),(trip_distance#4 >= 0.0),(total_amount#16 >= 0.0),(tpep_pickup_datetime#1 < tpep_dropoff_datetime#2)
+[error] 25/11/30 15:52:53 INFO CodeGenerator: Code generated in 30.116606 ms
+[error] 25/11/30 15:52:53 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 200.7 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 35.0 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.188.186.236:52060 (size: 35.0 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO SparkContext: Created broadcast 4 from count at DataValidation.scala:42
+[error] 25/11/30 15:52:53 INFO FileSourceScanExec: Planning scan with bin packing, max size: 7919067 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Registering RDD 12 (count at DataValidation.scala:42) as input to shuffle 1
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Got map stage job 3 (count at DataValidation.scala:42) with 8 output partitions
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Final stage: ShuffleMapStage 4 (count at DataValidation.scala:42)
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Submitting ShuffleMapStage 4 (MapPartitionsRDD[12] at count at DataValidation.scala:42), which has no missing parents
+[error] 25/11/30 15:52:53 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 22.0 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 9.0 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 10.188.186.236:52060 (size: 9.0 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:53 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:53 INFO DAGScheduler: Submitting 8 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[12] at count at DataValidation.scala:42) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+[error] 25/11/30 15:52:53 INFO TaskSchedulerImpl: Adding task set 4.0 with 8 tasks resource profile 0
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 10) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 1.0 in stage 4.0 (TID 11) (10.188.186.236, executor driver, partition 1, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 2.0 in stage 4.0 (TID 12) (10.188.186.236, executor driver, partition 2, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 3.0 in stage 4.0 (TID 13) (10.188.186.236, executor driver, partition 3, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 4.0 in stage 4.0 (TID 14) (10.188.186.236, executor driver, partition 4, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 5.0 in stage 4.0 (TID 15) (10.188.186.236, executor driver, partition 5, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 6.0 in stage 4.0 (TID 16) (10.188.186.236, executor driver, partition 6, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Starting task 7.0 in stage 4.0 (TID 17) (10.188.186.236, executor driver, partition 7, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:53 INFO Executor: Running task 3.0 in stage 4.0 (TID 13)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 0.0 in stage 4.0 (TID 10)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 4.0 in stage 4.0 (TID 14)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 1.0 in stage 4.0 (TID 11)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 6.0 in stage 4.0 (TID 16)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 7.0 in stage 4.0 (TID 17)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 2.0 in stage 4.0 (TID 12)
+[error] 25/11/30 15:52:53 INFO Executor: Running task 5.0 in stage 4.0 (TID 15)
+[error] 25/11/30 15:52:53 INFO CodeGenerator: Code generated in 24.527788 ms
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 39595335-47514402, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 7919067-15838134, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 31676268-39595335, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 15838134-23757201, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 55433469-59158238, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 23757201-31676268, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 47514402-55433469, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 0-7919067, partition values: [empty row]
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 4.0 in stage 4.0 (TID 14). 2283 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 0.0 in stage 4.0 (TID 10). 2240 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 4.0 in stage 4.0 (TID 14) in 104 ms on 10.188.186.236 (executor driver) (1/8)
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 2.0 in stage 4.0 (TID 12). 2240 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 10) in 108 ms on 10.188.186.236 (executor driver) (2/8)
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 2.0 in stage 4.0 (TID 12) in 108 ms on 10.188.186.236 (executor driver) (3/8)
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 7.0 in stage 4.0 (TID 17). 2283 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 7.0 in stage 4.0 (TID 17) in 107 ms on 10.188.186.236 (executor driver) (4/8)
+[error] 25/11/30 15:52:53 INFO Executor: Finished task 6.0 in stage 4.0 (TID 16). 2240 bytes result sent to driver
+[error] 25/11/30 15:52:53 INFO TaskSetManager: Finished task 6.0 in stage 4.0 (TID 16) in 109 ms on 10.188.186.236 (executor driver) (5/8)
+[error] 25/11/30 15:52:53 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:52:53 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:52:53 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:52:54 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.188.186.236:52060 in memory (size: 34.6 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:54 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.188.186.236:52060 in memory (size: 6.1 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:54 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.188.186.236:52060 in memory (size: 7.9 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:54 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:52:54 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:52:54 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 5.0 in stage 4.0 (TID 15). 2326 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 3.0 in stage 4.0 (TID 13). 2326 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 1.0 in stage 4.0 (TID 11). 2326 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 3.0 in stage 4.0 (TID 13) in 1344 ms on 10.188.186.236 (executor driver) (6/8)
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 5.0 in stage 4.0 (TID 15) in 1343 ms on 10.188.186.236 (executor driver) (7/8)
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 1.0 in stage 4.0 (TID 11) in 1346 ms on 10.188.186.236 (executor driver) (8/8)
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:52:55 INFO DAGScheduler: ShuffleMapStage 4 (count at DataValidation.scala:42) finished in 1.358 s
+[error] 25/11/30 15:52:55 INFO DAGScheduler: looking for newly runnable stages
+[error] 25/11/30 15:52:55 INFO DAGScheduler: running: HashSet()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: waiting: HashSet()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: failed: HashSet()
+[error] 25/11/30 15:52:55 INFO SparkContext: Starting job: count at DataValidation.scala:42
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Got job 4 (count at DataValidation.scala:42) with 1 output partitions
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Final stage: ResultStage 6 (count at DataValidation.scala:42)
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 5)
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting ResultStage 6 (MapPartitionsRDD[15] at count at DataValidation.scala:42), which has no missing parents
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 13.1 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 6.1 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 10.188.186.236:52060 (size: 6.1 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 6 (MapPartitionsRDD[15] at count at DataValidation.scala:42) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Adding task set 6.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 18) (10.188.186.236, executor driver, partition 0, NODE_LOCAL, 7695 bytes) 
+[error] 25/11/30 15:52:55 INFO Executor: Running task 0.0 in stage 6.0 (TID 18)
+[error] 25/11/30 15:52:55 INFO ShuffleBlockFetcherIterator: Getting 8 (480.0 B) non-empty blocks including 8 (480.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[error] 25/11/30 15:52:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 0.0 in stage 6.0 (TID 18). 4084 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 18) in 10 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:52:55 INFO DAGScheduler: ResultStage 6 (count at DataValidation.scala:42) finished in 0.015 s
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Job 4 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 6: Stage finished
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Job 4 finished: count at DataValidation.scala:42, took 0.020146 s
+[info] Valid records: 2849171
+[error] 25/11/30 15:52:55 INFO FileSourceStrategy: Pushed Filters: 
+[error] 25/11/30 15:52:55 INFO FileSourceStrategy: Post-Scan Filters: 
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 200.0 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Removed broadcast_6_piece0 on 10.188.186.236:52060 in memory (size: 6.1 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 34.6 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 10.188.186.236:52060 (size: 34.6 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO SparkContext: Created broadcast 7 from count at DataValidation.scala:44
+[error] 25/11/30 15:52:55 INFO FileSourceScanExec: Planning scan with bin packing, max size: 7919067 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Registering RDD 19 (count at DataValidation.scala:44) as input to shuffle 2
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Got map stage job 5 (count at DataValidation.scala:44) with 8 output partitions
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Final stage: ShuffleMapStage 7 (count at DataValidation.scala:44)
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting ShuffleMapStage 7 (MapPartitionsRDD[19] at count at DataValidation.scala:44), which has no missing parents
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 17.5 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 7.9 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 10.188.186.236:52060 (size: 7.9 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting 8 missing tasks from ShuffleMapStage 7 (MapPartitionsRDD[19] at count at DataValidation.scala:44) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Adding task set 7.0 with 8 tasks resource profile 0
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 0.0 in stage 7.0 (TID 19) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 1.0 in stage 7.0 (TID 20) (10.188.186.236, executor driver, partition 1, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Removed broadcast_5_piece0 on 10.188.186.236:52060 in memory (size: 9.0 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 2.0 in stage 7.0 (TID 21) (10.188.186.236, executor driver, partition 2, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 3.0 in stage 7.0 (TID 22) (10.188.186.236, executor driver, partition 3, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 4.0 in stage 7.0 (TID 23) (10.188.186.236, executor driver, partition 4, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 5.0 in stage 7.0 (TID 24) (10.188.186.236, executor driver, partition 5, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 6.0 in stage 7.0 (TID 25) (10.188.186.236, executor driver, partition 6, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 7.0 in stage 7.0 (TID 26) (10.188.186.236, executor driver, partition 7, PROCESS_LOCAL, 8352 bytes) 
+[error] 25/11/30 15:52:55 INFO Executor: Running task 1.0 in stage 7.0 (TID 20)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 2.0 in stage 7.0 (TID 21)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 4.0 in stage 7.0 (TID 23)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 3.0 in stage 7.0 (TID 22)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 5.0 in stage 7.0 (TID 24)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 6.0 in stage 7.0 (TID 25)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 0.0 in stage 7.0 (TID 19)
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 7919067-15838134, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO Executor: Running task 7.0 in stage 7.0 (TID 26)
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 23757201-31676268, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 55433469-59158238, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 47514402-55433469, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 39595335-47514402, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 31676268-39595335, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 0-7919067, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 15838134-23757201, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 1.0 in stage 7.0 (TID 20). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 6.0 in stage 7.0 (TID 25). 2184 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 6.0 in stage 7.0 (TID 25) in 27 ms on 10.188.186.236 (executor driver) (1/8)
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 3.0 in stage 7.0 (TID 22). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 3.0 in stage 7.0 (TID 22) in 30 ms on 10.188.186.236 (executor driver) (2/8)
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 0.0 in stage 7.0 (TID 19). 2184 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 1.0 in stage 7.0 (TID 20) in 34 ms on 10.188.186.236 (executor driver) (3/8)
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 0.0 in stage 7.0 (TID 19) in 35 ms on 10.188.186.236 (executor driver) (4/8)
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 2.0 in stage 7.0 (TID 21). 2184 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 2.0 in stage 7.0 (TID 21) in 35 ms on 10.188.186.236 (executor driver) (5/8)
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 7.0 in stage 7.0 (TID 26). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 7.0 in stage 7.0 (TID 26) in 34 ms on 10.188.186.236 (executor driver) (6/8)
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 5.0 in stage 7.0 (TID 24). 2227 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 5.0 in stage 7.0 (TID 24) in 36 ms on 10.188.186.236 (executor driver) (7/8)
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 4.0 in stage 7.0 (TID 23). 2184 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 4.0 in stage 7.0 (TID 23) in 38 ms on 10.188.186.236 (executor driver) (8/8)
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Removed TaskSet 7.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:52:55 INFO DAGScheduler: ShuffleMapStage 7 (count at DataValidation.scala:44) finished in 0.073 s
+[error] 25/11/30 15:52:55 INFO DAGScheduler: looking for newly runnable stages
+[error] 25/11/30 15:52:55 INFO DAGScheduler: running: HashSet()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: waiting: HashSet()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: failed: HashSet()
+[error] 25/11/30 15:52:55 INFO SparkContext: Starting job: count at DataValidation.scala:44
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Got job 6 (count at DataValidation.scala:44) with 1 output partitions
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Final stage: ResultStage 9 (count at DataValidation.scala:44)
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 8)
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting ResultStage 9 (MapPartitionsRDD[22] at count at DataValidation.scala:44), which has no missing parents
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 13.1 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 6.1 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 10.188.186.236:52060 (size: 6.1 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 9 (MapPartitionsRDD[22] at count at DataValidation.scala:44) (first 15 tasks are for partitions Vector(0))
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Adding task set 9.0 with 1 tasks resource profile 0
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 0.0 in stage 9.0 (TID 27) (10.188.186.236, executor driver, partition 0, NODE_LOCAL, 7695 bytes) 
+[error] 25/11/30 15:52:55 INFO Executor: Running task 0.0 in stage 9.0 (TID 27)
+[error] 25/11/30 15:52:55 INFO ShuffleBlockFetcherIterator: Getting 8 (480.0 B) non-empty blocks including 8 (480.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[error] 25/11/30 15:52:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 0.0 in stage 9.0 (TID 27). 4084 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 0.0 in stage 9.0 (TID 27) in 12 ms on 10.188.186.236 (executor driver) (1/1)
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:52:55 INFO DAGScheduler: ResultStage 9 (count at DataValidation.scala:44) finished in 0.019 s
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Job 6 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 9: Stage finished
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Job 6 finished: count at DataValidation.scala:44, took 0.023238 s
+[info] Invalid records: 626055
+[info] --- Starting Branch 1: Minio Storage ---
+[info] Writing validated data to local path: temp_validated_data
+[error] 25/11/30 15:52:55 INFO FileSourceStrategy: Pushed Filters: IsNotNull(passenger_count),IsNotNull(trip_distance),IsNotNull(total_amount),IsNotNull(tpep_pickup_datetime),IsNotNull(tpep_dropoff_datetime),GreaterThan(passenger_count,0),GreaterThanOrEqual(trip_distance,0.0),GreaterThanOrEqual(total_amount,0.0)
+[error] 25/11/30 15:52:55 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(passenger_count#3L),isnotnull(trip_distance#4),isnotnull(total_amount#16),isnotnull(tpep_pickup_datetime#1),isnotnull(tpep_dropoff_datetime#2),(passenger_count#3L > 0),(trip_distance#4 >= 0.0),(total_amount#16 >= 0.0),(tpep_pickup_datetime#1 < tpep_dropoff_datetime#2)
+[error] 25/11/30 15:52:55 INFO ParquetUtils: Using default output committer for Parquet: org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO CodeGenerator: Code generated in 56.218353 ms
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 202.8 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Removed broadcast_9_piece0 on 10.188.186.236:52060 in memory (size: 6.1 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Removed broadcast_8_piece0 on 10.188.186.236:52060 in memory (size: 7.9 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Removed broadcast_7_piece0 on 10.188.186.236:52060 in memory (size: 34.6 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 35.6 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on 10.188.186.236:52060 (size: 35.6 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO SparkContext: Created broadcast 10 from parquet at DataValidation.scala:59
+[error] 25/11/30 15:52:55 INFO FileSourceScanExec: Planning scan with bin packing, max size: 7919067 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:52:55 INFO SparkContext: Starting job: parquet at DataValidation.scala:59
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Got job 7 (parquet at DataValidation.scala:59) with 8 output partitions
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Final stage: ResultStage 10 (parquet at DataValidation.scala:59)
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting ResultStage 10 (MapPartitionsRDD[26] at parquet at DataValidation.scala:59), which has no missing parents
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 229.9 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 80.2 KiB, free 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on 10.188.186.236:52060 (size: 80.2 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:55 INFO SparkContext: Created broadcast 11 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:52:55 INFO DAGScheduler: Submitting 8 missing tasks from ResultStage 10 (MapPartitionsRDD[26] at parquet at DataValidation.scala:59) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+[error] 25/11/30 15:52:55 INFO TaskSchedulerImpl: Adding task set 10.0 with 8 tasks resource profile 0
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 0.0 in stage 10.0 (TID 28) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 1.0 in stage 10.0 (TID 29) (10.188.186.236, executor driver, partition 1, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 2.0 in stage 10.0 (TID 30) (10.188.186.236, executor driver, partition 2, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 3.0 in stage 10.0 (TID 31) (10.188.186.236, executor driver, partition 3, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 4.0 in stage 10.0 (TID 32) (10.188.186.236, executor driver, partition 4, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 5.0 in stage 10.0 (TID 33) (10.188.186.236, executor driver, partition 5, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 6.0 in stage 10.0 (TID 34) (10.188.186.236, executor driver, partition 6, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Starting task 7.0 in stage 10.0 (TID 35) (10.188.186.236, executor driver, partition 7, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:52:55 INFO Executor: Running task 0.0 in stage 10.0 (TID 28)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 2.0 in stage 10.0 (TID 30)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 3.0 in stage 10.0 (TID 31)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 1.0 in stage 10.0 (TID 29)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 4.0 in stage 10.0 (TID 32)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 5.0 in stage 10.0 (TID 33)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 6.0 in stage 10.0 (TID 34)
+[error] 25/11/30 15:52:55 INFO Executor: Running task 7.0 in stage 10.0 (TID 35)
+[error] 25/11/30 15:52:55 INFO CodeGenerator: Code generated in 21.34503 ms
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 55433469-59158238, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 47514402-55433469, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 31676268-39595335, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 39595335-47514402, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 15838134-23757201, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[error] 25/11/30 15:52:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[error] 25/11/30 15:52:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 7919067-15838134, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 23757201-31676268, partition values: [empty row]
+[error] 25/11/30 15:52:55 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:55 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:55 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:55 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:55 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:55 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:52:55 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:55 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:55 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:52:55 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:52:55 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:55 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:55 INFO SparkHadoopMapRedUtil: No need to commit output of task because needsTaskCommit=false: attempt_202511301552555303073342153459895_0010_m_000007_35
+[error] 25/11/30 15:52:55 INFO SparkHadoopMapRedUtil: No need to commit output of task because needsTaskCommit=false: attempt_202511301552555303073342153459895_0010_m_000002_30
+[error] 25/11/30 15:52:55 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:52:55 INFO SparkHadoopMapRedUtil: No need to commit output of task because needsTaskCommit=false: attempt_202511301552555303073342153459895_0010_m_000006_34
+[error] 25/11/30 15:52:55 INFO SparkHadoopMapRedUtil: No need to commit output of task because needsTaskCommit=false: attempt_202511301552555303073342153459895_0010_m_000004_32
+[error] 25/11/30 15:52:55 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:52:55 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 2.0 in stage 10.0 (TID 30). 2963 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 4.0 in stage 10.0 (TID 32). 2963 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 7.0 in stage 10.0 (TID 35). 2963 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 2.0 in stage 10.0 (TID 30) in 127 ms on 10.188.186.236 (executor driver) (1/8)
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 4.0 in stage 10.0 (TID 32) in 127 ms on 10.188.186.236 (executor driver) (2/8)
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 7.0 in stage 10.0 (TID 35) in 126 ms on 10.188.186.236 (executor driver) (3/8)
+[error] 25/11/30 15:52:55 INFO Executor: Finished task 6.0 in stage 10.0 (TID 34). 2963 bytes result sent to driver
+[error] 25/11/30 15:52:55 INFO TaskSetManager: Finished task 6.0 in stage 10.0 (TID 34) in 134 ms on 10.188.186.236 (executor driver) (4/8)
+[error] 25/11/30 15:52:55 INFO ParquetOutputFormat: ParquetRecordWriter [block size: 134217728b, row group padding size: 8388608b, validating: false]
+[error] 25/11/30 15:52:55 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+[error] {
+[error]   "type" : "struct",
+[error]   "fields" : [ {
+[error]     "name" : "VendorID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_pickup_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_dropoff_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "passenger_count",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "trip_distance",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "RatecodeID",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "store_and_fwd_flag",
+[error]     "type" : "string",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "PULocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "DOLocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "payment_type",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "fare_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "extra",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "mta_tax",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tip_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tolls_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "improvement_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "total_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "congestion_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "Airport_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "cbd_congestion_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   } ]
+[error] }
+[error] and corresponding Parquet message type:
+[error] message spark_schema {
+[error]   optional int32 VendorID;
+[error]   optional int64 tpep_pickup_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 tpep_dropoff_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 passenger_count;
+[error]   optional double trip_distance;
+[error]   optional int64 RatecodeID;
+[error]   optional binary store_and_fwd_flag (STRING);
+[error]   optional int32 PULocationID;
+[error]   optional int32 DOLocationID;
+[error]   optional int64 payment_type;
+[error]   optional double fare_amount;
+[error]   optional double extra;
+[error]   optional double mta_tax;
+[error]   optional double tip_amount;
+[error]   optional double tolls_amount;
+[error]   optional double improvement_surcharge;
+[error]   optional double total_amount;
+[error]   optional double congestion_surcharge;
+[error]   optional double Airport_fee;
+[error]   optional double cbd_congestion_fee;
+[error] }
+[error]        
+[error] 25/11/30 15:52:55 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:55 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:55 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:55 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:55 INFO ParquetOutputFormat: ParquetRecordWriter [block size: 134217728b, row group padding size: 8388608b, validating: false]
+[error] 25/11/30 15:52:55 INFO ParquetOutputFormat: ParquetRecordWriter [block size: 134217728b, row group padding size: 8388608b, validating: false]
+[error] 25/11/30 15:52:56 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+[error] {
+[error]   "type" : "struct",
+[error]   "fields" : [ {
+[error]     "name" : "VendorID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_pickup_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_dropoff_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "passenger_count",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "trip_distance",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "RatecodeID",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "store_and_fwd_flag",
+[error]     "type" : "string",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "PULocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "DOLocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "payment_type",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "fare_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "extra",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "mta_tax",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tip_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tolls_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "improvement_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "total_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "congestion_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "Airport_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "cbd_congestion_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   } ]
+[error] }
+[error] and corresponding Parquet message type:
+[error] message spark_schema {
+[error]   optional int32 VendorID;
+[error]   optional int64 tpep_pickup_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 tpep_dropoff_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 passenger_count;
+[error]   optional double trip_distance;
+[error]   optional int64 RatecodeID;
+[error]   optional binary store_and_fwd_flag (STRING);
+[error]   optional int32 PULocationID;
+[error]   optional int32 DOLocationID;
+[error]   optional int64 payment_type;
+[error]   optional double fare_amount;
+[error]   optional double extra;
+[error]   optional double mta_tax;
+[error]   optional double tip_amount;
+[error]   optional double tolls_amount;
+[error]   optional double improvement_surcharge;
+[error]   optional double total_amount;
+[error]   optional double congestion_surcharge;
+[error]   optional double Airport_fee;
+[error]   optional double cbd_congestion_fee;
+[error] }
+[error]        
+[error] 25/11/30 15:52:56 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:56 INFO CodecConfig: Compression: SNAPPY
+[error] 25/11/30 15:52:56 INFO ParquetOutputFormat: ParquetRecordWriter [block size: 134217728b, row group padding size: 8388608b, validating: false]
+[error] 25/11/30 15:52:56 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+[error] {
+[error]   "type" : "struct",
+[error]   "fields" : [ {
+[error]     "name" : "VendorID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_pickup_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_dropoff_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "passenger_count",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "trip_distance",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "RatecodeID",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "store_and_fwd_flag",
+[error]     "type" : "string",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "PULocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "DOLocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "payment_type",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "fare_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "extra",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "mta_tax",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tip_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tolls_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "improvement_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "total_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "congestion_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "Airport_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "cbd_congestion_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   } ]
+[error] }
+[error] and corresponding Parquet message type:
+[error] message spark_schema {
+[error]   optional int32 VendorID;
+[error]   optional int64 tpep_pickup_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 tpep_dropoff_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 passenger_count;
+[error]   optional double trip_distance;
+[error]   optional int64 RatecodeID;
+[error]   optional binary store_and_fwd_flag (STRING);
+[error]   optional int32 PULocationID;
+[error]   optional int32 DOLocationID;
+[error]   optional int64 payment_type;
+[error]   optional double fare_amount;
+[error]   optional double extra;
+[error]   optional double mta_tax;
+[error]   optional double tip_amount;
+[error]   optional double tolls_amount;
+[error]   optional double improvement_surcharge;
+[error]   optional double total_amount;
+[error]   optional double congestion_surcharge;
+[error]   optional double Airport_fee;
+[error]   optional double cbd_congestion_fee;
+[error] }
+[error]        
+[error] 25/11/30 15:52:56 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+[error] {
+[error]   "type" : "struct",
+[error]   "fields" : [ {
+[error]     "name" : "VendorID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_pickup_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tpep_dropoff_datetime",
+[error]     "type" : "timestamp_ntz",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "passenger_count",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "trip_distance",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "RatecodeID",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "store_and_fwd_flag",
+[error]     "type" : "string",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "PULocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "DOLocationID",
+[error]     "type" : "integer",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "payment_type",
+[error]     "type" : "long",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "fare_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "extra",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "mta_tax",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tip_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "tolls_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "improvement_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "total_amount",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "congestion_surcharge",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "Airport_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   }, {
+[error]     "name" : "cbd_congestion_fee",
+[error]     "type" : "double",
+[error]     "nullable" : true,
+[error]     "metadata" : { }
+[error]   } ]
+[error] }
+[error] and corresponding Parquet message type:
+[error] message spark_schema {
+[error]   optional int32 VendorID;
+[error]   optional int64 tpep_pickup_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 tpep_dropoff_datetime (TIMESTAMP(MICROS,false));
+[error]   optional int64 passenger_count;
+[error]   optional double trip_distance;
+[error]   optional int64 RatecodeID;
+[error]   optional binary store_and_fwd_flag (STRING);
+[error]   optional int32 PULocationID;
+[error]   optional int32 DOLocationID;
+[error]   optional int64 payment_type;
+[error]   optional double fare_amount;
+[error]   optional double extra;
+[error]   optional double mta_tax;
+[error]   optional double tip_amount;
+[error]   optional double tolls_amount;
+[error]   optional double improvement_surcharge;
+[error]   optional double total_amount;
+[error]   optional double congestion_surcharge;
+[error]   optional double Airport_fee;
+[error]   optional double cbd_congestion_fee;
+[error] }
+[error]        
+[error] 25/11/30 15:52:56 INFO CodecPool: Got brand-new compressor [.snappy]
+[error] 25/11/30 15:52:56 INFO CodecPool: Got brand-new compressor [.snappy]
+[error] 25/11/30 15:52:56 INFO CodecPool: Got brand-new compressor [.snappy]
+[error] 25/11/30 15:52:56 INFO CodecPool: Got brand-new compressor [.snappy]
+[error] 25/11/30 15:52:56 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 10.188.186.236:52060 in memory (size: 35.0 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:52:56 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 0-7919067, partition values: [empty row]
+[error] 25/11/30 15:52:56 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:52:56 INFO FileOutputCommitter: Saved output of task 'attempt_202511301552555303073342153459895_0010_m_000000_28' to file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/temp_validated_data/_temporary/0/task_202511301552555303073342153459895_0010_m_000000
+[error] 25/11/30 15:52:56 INFO SparkHadoopMapRedUtil: attempt_202511301552555303073342153459895_0010_m_000000_28: Committed. Elapsed time: 1 ms.
+[error] 25/11/30 15:52:56 INFO Executor: Finished task 0.0 in stage 10.0 (TID 28). 3049 bytes result sent to driver
+[error] 25/11/30 15:52:56 INFO TaskSetManager: Finished task 0.0 in stage 10.0 (TID 28) in 440 ms on 10.188.186.236 (executor driver) (5/8)
+[error] 25/11/30 15:53:01 INFO FileOutputCommitter: Saved output of task 'attempt_202511301552555303073342153459895_0010_m_000005_33' to file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/temp_validated_data/_temporary/0/task_202511301552555303073342153459895_0010_m_000005
+[error] 25/11/30 15:53:01 INFO SparkHadoopMapRedUtil: attempt_202511301552555303073342153459895_0010_m_000005_33: Committed. Elapsed time: 1 ms.
+[error] 25/11/30 15:53:01 INFO Executor: Finished task 5.0 in stage 10.0 (TID 33). 3135 bytes result sent to driver
+[error] 25/11/30 15:53:01 INFO TaskSetManager: Finished task 5.0 in stage 10.0 (TID 33) in 5312 ms on 10.188.186.236 (executor driver) (6/8)
+[error] 25/11/30 15:53:01 INFO FileOutputCommitter: Saved output of task 'attempt_202511301552555303073342153459895_0010_m_000003_31' to file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/temp_validated_data/_temporary/0/task_202511301552555303073342153459895_0010_m_000003
+[error] 25/11/30 15:53:01 INFO SparkHadoopMapRedUtil: attempt_202511301552555303073342153459895_0010_m_000003_31: Committed. Elapsed time: 1 ms.
+[error] 25/11/30 15:53:01 INFO Executor: Finished task 3.0 in stage 10.0 (TID 31). 3092 bytes result sent to driver
+[error] 25/11/30 15:53:01 INFO TaskSetManager: Finished task 3.0 in stage 10.0 (TID 31) in 6007 ms on 10.188.186.236 (executor driver) (7/8)
+[error] 25/11/30 15:53:01 INFO FileOutputCommitter: Saved output of task 'attempt_202511301552555303073342153459895_0010_m_000001_29' to file:/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/temp_validated_data/_temporary/0/task_202511301552555303073342153459895_0010_m_000001
+[error] 25/11/30 15:53:01 INFO SparkHadoopMapRedUtil: attempt_202511301552555303073342153459895_0010_m_000001_29: Committed. Elapsed time: 1 ms.
+[error] 25/11/30 15:53:01 INFO Executor: Finished task 1.0 in stage 10.0 (TID 29). 3092 bytes result sent to driver
+[error] 25/11/30 15:53:01 INFO TaskSetManager: Finished task 1.0 in stage 10.0 (TID 29) in 6023 ms on 10.188.186.236 (executor driver) (8/8)
+[error] 25/11/30 15:53:01 INFO TaskSchedulerImpl: Removed TaskSet 10.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:53:01 INFO DAGScheduler: ResultStage 10 (parquet at DataValidation.scala:59) finished in 6.085 s
+[error] 25/11/30 15:53:01 INFO DAGScheduler: Job 7 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:53:01 INFO TaskSchedulerImpl: Killing all running tasks in stage 10: Stage finished
+[error] 25/11/30 15:53:01 INFO DAGScheduler: Job 7 finished: parquet at DataValidation.scala:59, took 6.089556 s
+[error] 25/11/30 15:53:01 INFO FileFormatWriter: Start to commit write Job 4f2feea6-bf15-4b29-9ec4-1f1286188cdb.
+[error] 25/11/30 15:53:01 INFO FileFormatWriter: Write Job 4f2feea6-bf15-4b29-9ec4-1f1286188cdb committed. Elapsed time: 56 ms.
+[error] 25/11/30 15:53:01 INFO FileFormatWriter: Finished processing stats for write job 4f2feea6-bf15-4b29-9ec4-1f1286188cdb.
+[info] Uploading to Minio bucket 'warehouse' at 'validated/yellow_tripdata_2025-01'...
+[info] Bucket 'warehouse' already exists.
+[info] Uploading part-00001-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet to validated/yellow_tripdata_2025-01/part-00001-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet
+[info] Uploading part-00000-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet to validated/yellow_tripdata_2025-01/part-00000-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet
+[info] Uploading part-00005-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet to validated/yellow_tripdata_2025-01/part-00005-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet
+[info] Uploading _SUCCESS to validated/yellow_tripdata_2025-01/_SUCCESS
+[info] Uploading part-00003-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet to validated/yellow_tripdata_2025-01/part-00003-9f2bc253-5b99-4032-868a-97ab9334956c-c000.snappy.parquet
+[info] Branch 1 completed.
+[info] --- Starting Branch 2: Postgres Ingestion ---
+[info] Writing to Postgres table 'fact_trips' at jdbc:postgresql://localhost:5433/warehouse
+[error] 25/11/30 15:53:04 INFO FileSourceStrategy: Pushed Filters: IsNotNull(passenger_count),IsNotNull(trip_distance),IsNotNull(total_amount),IsNotNull(tpep_pickup_datetime),IsNotNull(tpep_dropoff_datetime),GreaterThan(passenger_count,0),GreaterThanOrEqual(trip_distance,0.0),GreaterThanOrEqual(total_amount,0.0)
+[error] 25/11/30 15:53:04 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(passenger_count#3L),isnotnull(trip_distance#4),isnotnull(total_amount#16),isnotnull(tpep_pickup_datetime#1),isnotnull(tpep_dropoff_datetime#2),(passenger_count#3L > 0),(trip_distance#4 >= 0.0),(total_amount#16 >= 0.0),(tpep_pickup_datetime#1 < tpep_dropoff_datetime#2)
+[error] 25/11/30 15:53:04 INFO CodeGenerator: Code generated in 28.612263 ms
+[error] 25/11/30 15:53:04 INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 202.6 KiB, free 2.2 GiB)
+[error] 25/11/30 15:53:04 INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 35.6 KiB, free 2.2 GiB)
+[error] 25/11/30 15:53:04 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on 10.188.186.236:52060 (size: 35.6 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:53:04 INFO SparkContext: Created broadcast 12 from jdbc at DataValidation.scala:106
+[error] 25/11/30 15:53:04 INFO FileSourceScanExec: Planning scan with bin packing, max size: 7919067 bytes, open cost is considered as scanning 4194304 bytes.
+[error] 25/11/30 15:53:04 INFO SparkContext: Starting job: jdbc at DataValidation.scala:106
+[error] 25/11/30 15:53:04 INFO DAGScheduler: Got job 8 (jdbc at DataValidation.scala:106) with 8 output partitions
+[error] 25/11/30 15:53:04 INFO DAGScheduler: Final stage: ResultStage 11 (jdbc at DataValidation.scala:106)
+[error] 25/11/30 15:53:04 INFO DAGScheduler: Parents of final stage: List()
+[error] 25/11/30 15:53:04 INFO DAGScheduler: Missing parents: List()
+[error] 25/11/30 15:53:04 INFO DAGScheduler: Submitting ResultStage 11 (MapPartitionsRDD[32] at jdbc at DataValidation.scala:106), which has no missing parents
+[error] 25/11/30 15:53:04 INFO MemoryStore: Block broadcast_13 stored as values in memory (estimated size 44.3 KiB, free 2.2 GiB)
+[error] 25/11/30 15:53:04 INFO MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 15.8 KiB, free 2.2 GiB)
+[error] 25/11/30 15:53:04 INFO BlockManagerInfo: Added broadcast_13_piece0 in memory on 10.188.186.236:52060 (size: 15.8 KiB, free: 2.2 GiB)
+[error] 25/11/30 15:53:04 INFO SparkContext: Created broadcast 13 from broadcast at DAGScheduler.scala:1580
+[error] 25/11/30 15:53:04 INFO DAGScheduler: Submitting 8 missing tasks from ResultStage 11 (MapPartitionsRDD[32] at jdbc at DataValidation.scala:106) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+[error] 25/11/30 15:53:04 INFO TaskSchedulerImpl: Adding task set 11.0 with 8 tasks resource profile 0
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 0.0 in stage 11.0 (TID 36) (10.188.186.236, executor driver, partition 0, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 1.0 in stage 11.0 (TID 37) (10.188.186.236, executor driver, partition 1, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 2.0 in stage 11.0 (TID 38) (10.188.186.236, executor driver, partition 2, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 3.0 in stage 11.0 (TID 39) (10.188.186.236, executor driver, partition 3, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 4.0 in stage 11.0 (TID 40) (10.188.186.236, executor driver, partition 4, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 5.0 in stage 11.0 (TID 41) (10.188.186.236, executor driver, partition 5, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 6.0 in stage 11.0 (TID 42) (10.188.186.236, executor driver, partition 6, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO TaskSetManager: Starting task 7.0 in stage 11.0 (TID 43) (10.188.186.236, executor driver, partition 7, PROCESS_LOCAL, 8363 bytes) 
+[error] 25/11/30 15:53:04 INFO Executor: Running task 1.0 in stage 11.0 (TID 37)
+[error] 25/11/30 15:53:04 INFO Executor: Running task 0.0 in stage 11.0 (TID 36)
+[error] 25/11/30 15:53:04 INFO Executor: Running task 4.0 in stage 11.0 (TID 40)
+[error] 25/11/30 15:53:04 INFO Executor: Running task 3.0 in stage 11.0 (TID 39)
+[error] 25/11/30 15:53:04 INFO Executor: Running task 5.0 in stage 11.0 (TID 41)
+[error] 25/11/30 15:53:04 INFO Executor: Running task 7.0 in stage 11.0 (TID 43)
+[error] 25/11/30 15:53:04 INFO Executor: Running task 6.0 in stage 11.0 (TID 42)
+[error] 25/11/30 15:53:04 INFO Executor: Running task 2.0 in stage 11.0 (TID 38)
+[error] 25/11/30 15:53:04 INFO CodeGenerator: Code generated in 25.947051 ms
+[error] 25/11/30 15:53:05 INFO CodeGenerator: Code generated in 40.246229 ms
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 0-7919067, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 55433469-59158238, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 47514402-55433469, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 39595335-47514402, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 7919067-15838134, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 15838134-23757201, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 23757201-31676268, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FileScanRDD: Reading File path: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/data/raw/yellow_tripdata_2025-01.parquet, range: 31676268-39595335, partition values: [empty row]
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO CodecPool: Got brand-new decompressor [.zstd]
+[error] 25/11/30 15:53:05 INFO Executor: Finished task 0.0 in stage 11.0 (TID 36). 1859 bytes result sent to driver
+[error] 25/11/30 15:53:05 INFO FilterCompat: Filtering using predicate: and(and(and(and(and(noteq(passenger_count, null), noteq(trip_distance, null)), noteq(total_amount, null)), gt(passenger_count, 0)), gteq(trip_distance, 0.0)), gteq(total_amount, 0.0))
+[error] 25/11/30 15:53:05 INFO Executor: Finished task 2.0 in stage 11.0 (TID 38). 1902 bytes result sent to driver
+[error] 25/11/30 15:53:05 INFO Executor: Finished task 4.0 in stage 11.0 (TID 40). 1859 bytes result sent to driver
+[error] 25/11/30 15:53:05 INFO Executor: Finished task 7.0 in stage 11.0 (TID 43). 1859 bytes result sent to driver
+[error] 25/11/30 15:53:05 INFO TaskSetManager: Finished task 0.0 in stage 11.0 (TID 36) in 1224 ms on 10.188.186.236 (executor driver) (1/8)
+[error] 25/11/30 15:53:05 INFO TaskSetManager: Finished task 2.0 in stage 11.0 (TID 38) in 1224 ms on 10.188.186.236 (executor driver) (2/8)
+[error] 25/11/30 15:53:05 INFO TaskSetManager: Finished task 7.0 in stage 11.0 (TID 43) in 1226 ms on 10.188.186.236 (executor driver) (3/8)
+[error] 25/11/30 15:53:05 INFO TaskSetManager: Finished task 4.0 in stage 11.0 (TID 40) in 1228 ms on 10.188.186.236 (executor driver) (4/8)
+[error] 25/11/30 15:53:05 INFO Executor: Finished task 6.0 in stage 11.0 (TID 42). 1859 bytes result sent to driver
+[error] 25/11/30 15:53:05 INFO TaskSetManager: Finished task 6.0 in stage 11.0 (TID 42) in 1229 ms on 10.188.186.236 (executor driver) (5/8)
+[error] 25/11/30 15:53:05 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:53:05 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:53:05 INFO ColumnIndexFilter: No offset index for column passenger_count is available; Unable to do filtering
+[error] 25/11/30 15:54:47 INFO Executor: Finished task 5.0 in stage 11.0 (TID 41). 1988 bytes result sent to driver
+[error] 25/11/30 15:54:47 INFO TaskSetManager: Finished task 5.0 in stage 11.0 (TID 41) in 102571 ms on 10.188.186.236 (executor driver) (6/8)
+[error] 25/11/30 15:55:07 INFO Executor: Finished task 1.0 in stage 11.0 (TID 37). 1945 bytes result sent to driver
+[error] 25/11/30 15:55:07 INFO TaskSetManager: Finished task 1.0 in stage 11.0 (TID 37) in 122664 ms on 10.188.186.236 (executor driver) (7/8)
+[error] 25/11/30 15:55:07 INFO Executor: Finished task 3.0 in stage 11.0 (TID 39). 1945 bytes result sent to driver
+[error] 25/11/30 15:55:07 INFO TaskSetManager: Finished task 3.0 in stage 11.0 (TID 39) in 123221 ms on 10.188.186.236 (executor driver) (8/8)
+[error] 25/11/30 15:55:07 INFO TaskSchedulerImpl: Removed TaskSet 11.0, whose tasks have all completed, from pool 
+[error] 25/11/30 15:55:07 INFO DAGScheduler: ResultStage 11 (jdbc at DataValidation.scala:106) finished in 123.296 s
+[error] 25/11/30 15:55:07 INFO DAGScheduler: Job 8 is finished. Cancelling potential speculative or zombie tasks for this job
+[error] 25/11/30 15:55:07 INFO TaskSchedulerImpl: Killing all running tasks in stage 11: Stage finished
+[error] 25/11/30 15:55:07 INFO DAGScheduler: Job 8 finished: jdbc at DataValidation.scala:106, took 123.350558 s
+[error] 25/11/30 15:55:08 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[info] Branch 2 completed.
+[info] Data ingestion pipeline completed successfully.
+[error] 25/11/30 15:55:08 INFO SparkUI: Stopped Spark web UI at http://10.188.186.236:4040
+[error] 25/11/30 15:55:08 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[error] 25/11/30 15:55:08 INFO MemoryStore: MemoryStore cleared
+[error] 25/11/30 15:55:08 INFO BlockManager: BlockManager stopped
+[error] 25/11/30 15:55:08 INFO BlockManagerMaster: BlockManagerMaster stopped
+[error] 25/11/30 15:55:08 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[error] 25/11/30 15:55:08 INFO SparkContext: Successfully stopped SparkContext
+[error] 25/11/30 15:55:08 INFO ShutdownHookManager: Shutdown hook called
+[error] 25/11/30 15:55:08 INFO ShutdownHookManager: Deleting directory /private/var/folders/h1/pkmwsfd12hz6_rnssw0zx33w0000gn/T/spark-a1625c3b-4e01-4222-b159-7af4f24ae555
+[success] Total time: 148 s (0:02:28.0), completed Nov 30, 2025, 3:55:08 PM

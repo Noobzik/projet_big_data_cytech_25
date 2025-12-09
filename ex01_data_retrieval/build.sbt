@@ -15,3 +15,9 @@ libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.5.5"
 libraryDependencies += "org.apache.hadoop" % "hadoop-aws" % "3.3.4"
 libraryDependencies += "com.amazonaws" % "aws-java-sdk-bundle" % "1.12.262"
 
+// Without forking, ctrl-c doesn't actually fully stop Spark
+run / fork := true
+Test / fork := true
+
+// Add JVM options to fix illegal reflective access warnings
+run / javaOptions += "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED"

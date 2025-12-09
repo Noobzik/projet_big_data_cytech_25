@@ -1,0 +1,325 @@
+2025.11.28 15:33:30 INFO  Started: Metals version 1.6.4 in folders '/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25' for client Antigravity 1.104.0.
+2025.11.28 15:33:32 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.28 15:33:32 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Nov 28, 2025 3:33:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Nov 28, 2025 3:33:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Nov 28, 2025 3:33:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.11.28 15:33:40 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:33:40 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 15:33:40 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:33:40 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:33:40 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:33:45 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:35:46 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Nov 28, 2025 3:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+2025.11.28 15:43:25 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 15:43:25 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:43:25 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:43:25 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:43:25 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:43:28 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 15:43:28 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:43:28 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:45:19 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:46:17 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:56:18 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:31 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 15:59:31 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:31 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:31 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:32 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:32 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:36 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:45 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 15:59:45 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:05:06 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:05:07 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:05:07 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:05:09 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:05:09 WARN  Could not find semantic tokens for: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 16:05:14 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 16:05:14 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:05:14 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:05:14 WARN  Could not find semantic tokens for: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 16:07:21 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 16:07:22 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 16:07:22 WARN  Could not find semantic tokens for: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 23:15:09 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:15:24 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:15:24 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.0/scalafmt-core_2.13-3.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.0/scalafmt-core_2.13-3.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.0/scalafmt-macros_2.13-3.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.0/mdoc-parser_2.13-2.8.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.0/scalafmt-config_2.13-3.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.0/scalafmt-config_2.13-3.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.0/mdoc-parser_2.13-2.8.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.0/scalafmt-macros_2.13-3.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.17.0/metaconfig-typesafe-config_2.13-0.17.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-core_2.13/0.17.0/metaconfig-core_2.13-0.17.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-core_2.13/0.17.0/metaconfig-core_2.13-0.17.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.17.0/metaconfig-typesafe-config_2.13-0.17.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-pprint_2.13/0.17.0/metaconfig-pprint_2.13-0.17.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-pprint_2.13/0.17.0/metaconfig-pprint_2.13-0.17.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.5.1/fansi_2.13-0.5.1.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.5.1/fansi_2.13-0.5.1.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.0/sourcecode_2.13-0.4.0.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.0/sourcecode_2.13-0.4.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.5.1/fansi_2.13-0.5.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.0/mdoc-parser_2.13-2.8.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.0/scalafmt-config_2.13-3.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.0/scalafmt-macros_2.13-3.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-pprint_2.13/0.17.0/metaconfig-pprint_2.13-0.17.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.0/scalafmt-core_2.13-3.10.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-pprint_2.13/0.17.0/metaconfig-pprint_2.13-0.17.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-core_2.13/0.17.0/metaconfig-core_2.13-0.17.0.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.5.1/fansi_2.13-0.5.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.17.0/metaconfig-typesafe-config_2.13-0.17.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.0/scalafmt-config_2.13-3.10.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.0/mdoc-parser_2.13-2.8.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.17.0/metaconfig-typesafe-config_2.13-0.17.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.0/scalafmt-macros_2.13-3.10.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-core_2.13/0.17.0/metaconfig-core_2.13-0.17.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.0/scalafmt-core_2.13-3.10.0.jar
+2025.11.28 23:15:34 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:15:36 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:15:36 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:15:36 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:18:09 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:18:34 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:08 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 23:21:08 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:08 WARN  Could not find semantic tokens for: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 23:21:18 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:19 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:20 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:29 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:29 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:29 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:30 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:38 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:38 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:38 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt
+2025.11.28 23:21:38 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:40 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:40 ERROR scalafmt: [3.10.0] /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala:96: error: [dialect scala213] `identifier` expected but `object` found
+                .object(objectName)
+                 ^
+2025.11.28 23:21:41 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:41 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:41 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:21:42 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:21:57 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:22:31 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:23:36 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:23:37 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:23:36 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:23:37 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:23:37 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:23:38 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:24:22 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:24:38 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:25:01 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:25:26 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:25:26 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:25:26 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:28:56 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 23:28:56 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:28:57 WARN  Could not find semantic tokens for: file:///Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala
+2025.11.28 23:29:02 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:29:02 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:29:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:29:04 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:38:04 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:43:11 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:43:11 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:43:11 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:43:12 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:50:58 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:50:59 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt
+2025.11.28 23:50:59 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:51:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:51:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:51:01 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:51:01 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:28 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:54:28 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:29 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Nov 28, 2025 11:54:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 321
+2025.11.28 23:54:43 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:43 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:44 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala
+2025.11.28 23:54:44 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:44 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:49 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala
+2025.11.28 23:54:49 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:49 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:54:51 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:55:00 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:55:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:55:01 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:55:04 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:56:26 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:56:27 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:56:27 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.28 23:56:27 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.28 23:56:27 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:10:52 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala
+2025.11.29 00:10:52 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:10:52 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:10:54 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:35:00 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala
+2025.11.29 00:35:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:35:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:35:08 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:35:08 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.29 00:35:08 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Nov 29, 2025 12:35:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 390
+2025.11.29 00:35:53 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:36:03 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt
+2025.11.29 00:36:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 00:36:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:29:40 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:46:00 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala
+2025.11.30 15:46:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:46:01 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:46:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:50:29 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:50:29 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:50:30 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala
+2025.11.30 15:50:30 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:50:30 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:53:29 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:05 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:06 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:07 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.30 15:57:07 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:07 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:55 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:55 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:55 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.11.30 15:57:55 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 15:57:55 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 18:01:35 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt
+2025.11.30 18:01:35 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 18:01:35 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 18:01:36 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 18:01:37 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 18:05:25 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Nov 30, 2025 6:10:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 30, 2025 7:03:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.11.30 19:05:15 INFO  Shutting down server
+2025.11.30 19:05:15 INFO  shutting down Metals
+2025.11.30 19:05:16 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.11.30 19:05:15 INFO  Exiting server
+2025.11.30 19:26:20 INFO  Started: Metals version 1.6.4 in folders '/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25' for client Antigravity 1.104.0.
+2025.11.30 19:26:27 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.30 19:28:55 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 19:28:57 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 19:28:57 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 19:28:57 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 19:28:57 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.30 19:28:57 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.01 00:38:17 INFO  Shutting down server
+2025.12.01 00:38:17 INFO  shutting down Metals
+2025.12.01 00:38:17 INFO  Exiting server
+2025.12.01 00:38:17 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.12.01 20:10:11 INFO  Started: Metals version 1.6.4 in folders '/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25' for client Antigravity 1.104.0.
+2025.12.01 20:10:19 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.01 20:13:15 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.01 20:13:22 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.01 20:13:22 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.01 20:13:22 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.01 20:13:22 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.01 20:13:22 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Dec 01, 2025 8:22:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.12.02 22:48:59 INFO  Shutting down server
+2025.12.02 22:48:59 INFO  shutting down Metals
+2025.12.02 22:48:59 INFO  Exiting server
+2025.12.02 22:54:12 INFO  Started: Metals version 1.6.4 in folders '/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25' for client Antigravity 1.104.0.
+2025.12.02 22:54:18 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.02 22:59:52 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 22:59:54 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 22:59:54 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 22:59:54 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 22:59:54 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 22:59:54 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 23:04:29 INFO  Shutting down server
+2025.12.02 23:04:29 INFO  shutting down Metals
+2025.12.02 23:04:29 INFO  Exiting server
+2025.12.02 23:49:06 INFO  Started: Metals version 1.6.4 in folders '/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25' for client Antigravity 1.104.0.
+2025.12.02 23:49:08 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.02 23:52:02 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 23:52:24 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 23:52:24 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 23:52:24 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 23:52:25 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 23:52:25 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.02 23:58:55 INFO  Shutting down server
+2025.12.02 23:58:55 INFO  shutting down Metals
+2025.12.02 23:58:55 INFO  Exiting server
+2025.12.08 15:34:20 INFO  Started: Metals version 1.6.4 in folders '/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25' for client Antigravity 1.104.0.
+2025.12.08 15:34:25 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.08 15:37:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 15:37:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 15:37:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 15:37:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/CheckSchema.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 15:37:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/IngestReferenceData.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 15:37:03 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex01_data_retrieval/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 15:38:04 INFO  Shutting down server
+2025.12.08 15:38:04 INFO  shutting down Metals
+2025.12.08 15:38:04 INFO  Exiting server
+2025.12.08 15:43:21 INFO  Started: Metals version 1.6.4 in folders '/Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25' for client Antigravity 1.104.0.
+2025.12.08 15:43:23 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+Dec 08, 2025 10:37:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.12.08 23:39:00 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 23:39:05 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 23:39:05 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 23:39:05 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala
+2025.12.08 23:41:59 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 23:56:45 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.08 23:56:47 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Dec 08, 2025 11:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Dec 08, 2025 11:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Dec 08, 2025 11:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2025.12.09 00:25:55 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.09 00:25:55 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.09 00:25:56 INFO  no build target found for /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.09 00:25:56 WARN  no build target for: /Users/zigzeug/Documents/GitHub/projet_big_data_cytech_25/ex02_data_ingestion/src/main/scala/DataValidation.scala

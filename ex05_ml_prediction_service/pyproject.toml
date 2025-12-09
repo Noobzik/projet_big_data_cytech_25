@@ -1,0 +1,19 @@
+[project]
+name = "taxi-prediction"
+version = "0.1.0"
+description = "Taxi Fare Prediction Service"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "scikit-learn",
+    "pandas",
+    "psycopg2-binary",
+    "joblib",
+    "numpy",
+    "sqlalchemy"
+]
+
+[tool.uv]
+dev-dependencies = []

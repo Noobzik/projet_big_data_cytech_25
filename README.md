@@ -1,28 +1,35 @@
-Le code minimal pour faire fonctionner un code avec Minio :
-```scala
-import org.apache.spark.sql.{SparkSession, DataFrame}
+# Projet Big Data 2025 - NYC Taxi
 
-object SparkApp extends App {
-  val spark = SparkSession.builder()
-    .appName("SparkApp")
-    .master("local")
-    .config("fs.s3a.access.key", "minio")
-    .config("fs.s3a.secret.key", "minio123")
-    .config("fs.s3a.endpoint", "http://localhost:9000/") // A changer lors du déploiement
-    .config("fs.s3a.path.style.access", "true")
-    .config("fs.s3a.connection.ssl.enable", "false")
-    .config("fs.s3a.attempts.maximum", "1")
-    .config("fs.s3a.connection.establish.timeout", "6000")
-    .config("fs.s3a.connection.timeout", "5000")
-    .getOrCreate()
-  spark.sparkContext.setLogLevel("WARN")
+Ce projet implémente une pipeline de données complète pour l'analyse des trajets de taxis New-Yorkais.
 
-}
+## Architecture
+J'ai architecturé le projet en plusieurs micro-services orchestrés par Docker Compose :
+
+1.  **Ingestion (Spark/Scala)** : Nettoyage et validation des données brutes (Parquet) -> Stockage MinIO & Postgres.
+2.  **Warehouse (Postgres)** : Modèle en étoile (Fact/Dimensions).
+3.  **Analytics (Streamlit)** : Dashboard interactif pour visualiser les KPIs.
+4.  **ML (FastAPI/Scikit-Learn)** : Service de prédiction de prix (entrainement automatique et API REST).
+5.  **Orchestration (Airflow)** : Pipeline automatisé de bout en bout.
+
+## Démarrage Rapide
+
+Tout est conteneurisé. Pour lancer le projet :
+
+```bash
+docker-compose up -d --build
 ```
 
-## Modalités de rendu
+## Accès aux Services
 
-1. Pull Request vers la branch `master`
-2. Dépot du rapport et du code source zippé dans cours.cyu.fr (Les accès seront bientôt ouverts)
+- **Dashboard** : [http://localhost:8501](http://localhost:8501)
+- **Airflow** : [http://localhost:8080](http://localhost:8080) (`admin`/`admin`)
+- **API ML** : [http://localhost:8000/docs](http://localhost:8000/docs)
+- **MinIO** : [http://localhost:9001](http://localhost:9001)
 
-Date limite de rendu : 7 février 2026
+## Structure du Projet
+
+- `ex02_data_ingestion`: Code Spark (Scala).
+- `ex03_sql_table_creation`: Scripts SQL.
+- `ex04_dashboard`: Application Streamlit.
+- `ex05_ml_prediction_service`: API ML (Python).
+- `ex06_airflow`: DAGs Airflow.
